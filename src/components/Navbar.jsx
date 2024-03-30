@@ -63,6 +63,7 @@ const Navbar = () => {
           ))}
         </ul>
 
+        {/* responsive menu for small device */}
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
             src={toggle ? close : menu}
@@ -70,6 +71,7 @@ const Navbar = () => {
             className="w-[28px] h-[28px] object-contain"
             onClick={() => setToggle(!toggle)}
           />
+
 
           <div
             className={`${
@@ -93,6 +95,7 @@ const Navbar = () => {
               ))}
             </ul>
           </div>
+          
         </div>
       </div>
     </nav>

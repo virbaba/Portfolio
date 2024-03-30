@@ -25,14 +25,15 @@ import {
     threejs,
   } from "../assets";
   
+  // navbar links
   export const navLinks = [
     {
       id: "about",
       title: "About",
     },
     {
-      id: "work",
-      title: "Work",
+      id: "projects",
+      title: "Projects",
     },
     {
       id: "contact",
@@ -40,25 +41,27 @@ import {
     },
   ];
   
+  // Provided Service
   const services = [
     {
       title: "Web Developer",
       icon: web,
     },
     {
-      title: "React Developer",
+      title: "React.js Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Node.js Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Javscript Developer",
       icon: creator,
     },
   ];
   
+  // Technologies provided
   const technologies = [
     {
       name: "HTML 5",
@@ -114,6 +117,7 @@ import {
     // },
   ];
   
+  // Experiences
   const experiences = [
     {
       title: "React.js Developer",
@@ -169,6 +173,7 @@ import {
     },
   ];
   
+  // Testimonials
   const testimonials = [
     {
       testimonial:
@@ -195,69 +200,70 @@ import {
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
-  
+
+// Projects section
   const projects = [
     {
-      name: "Car Rent",
+      name: "Virender | Blog",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "This App providing articles and tutorials on topics such as web development, software engineering, and programming languages. Virender is always learning and exploring new technologies.",
       tags: [
         {
-          name: "react",
+          name: "MERN",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "tailwind-css",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "flowbite-react",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: "https://firebasestorage.googleapis.com/v0/b/virender---blog.appspot.com/o/Screenshot%202024-03-30%20at%208.34.24%20AM.png?alt=media&token=54a38fb5-8468-41b5-be9d-08f09330f795",
+      source_code_link: "https://github.com/virbaba/Blog-App/",
     },
     {
-      name: "Job IT",
+      name: "Placement-Manager",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location, and providing placement management",
       tags: [
         {
-          name: "react",
+          name: "node.js",
           color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
         },
         {
           name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "mongo",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: "https://firebasestorage.googleapis.com/v0/b/virender---blog.appspot.com/o/Screenshot%202024-03-30%20at%208.59.57%20AM.png?alt=media&token=9547f7c7-85ee-46bb-8ebc-06dc17a4c631",
+      source_code_link: "https://github.com/virbaba/Placement",
+    },
+    {
+      name: "Virender | Portfolio",
+      description:
+        "This is my portfolio web app that provide information about me and my carrer. By this portfolio you know my tech stack that i have learned and you know my project wrok and you can contact my in contact section",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "framer-motion",
+          color: "green-text-gradient",
+        },
+        {
+          name: "email js",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: "https://firebasestorage.googleapis.com/v0/b/virender---blog.appspot.com/o/Screenshot%202024-03-30%20at%209.33.14%20AM.png?alt=media&token=04e6f2aa-3044-4578-83a3-9be24c5a5bd0",
       source_code_link: "https://github.com/",
     },
   ];
